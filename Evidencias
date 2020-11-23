@@ -1,0 +1,47 @@
+%Example of use of oxmathproblems latex class for problem sheets
+\documentclass{oxmathproblems}
+
+%(un)comment this line to enable/disable output of any solutions in the file
+%\printanswers
+
+%define the page header/title info
+\oxfordterm{Grupo A}
+\course{Calc 1}
+\sheetnumber{1}
+\sheettitle{Evidencias} %can leave out if no title per sheet
+
+% add further contact details to footer if desired,
+%e.g. email address, or name and email address
+\contact{Gabriel Burgos : A20214882@alumnos.uady.mx}
+
+\usepackage{amsmath}
+\begin{document}
+
+\begin{questions}
+
+\miquestion
+\begin{parts}
+  \part L = $\lim_{x\to\infty} x(\sqrt{x^2+1-x})$ =
+  $\lim_{x\to\infty} f(-x^2+(x\sqrt{x^2+1})$\\
+  $\lim_{x\to\ 1000} (1000(100\sqrt{1001})$=-1000+1000.4999=\underline{0.5}
+
+  \part L = $\lim_{x\to\infty} 5^{2x/3+x}$ \\
+  $when{x\to\ 100} = 5^{\frac{200}{103}} = 22.762$\\
+  $when{x\to\ 1000} = 5^{\frac{2000}{1003}} = 24.765$\\
+  $when{x\to\ 10000} = 5^{\frac{20000}{10003}} = 24.975$\\ = \underline{25}
+  
+  \part L = $\lim_{x\to\ 1} (\frac{1+x}{2+x})^\frac{1-\sqrt{x}}{1-x} \\
+  f(x)= \frac{1+x}{2+x}\\
+  \frac{1+0.999}{2+0.999} = 0.666\\
+  \phi(x)=\frac{1-\sqrt{x}}{1-x}\\
+  \frac{1-\sqrt{0.999}}{1-0,999} = 0.5001\\
+  L=0.666^{0.5001} = \underline{0.816}$
+  
+ 
+\end{parts}
+
+
+
+\end{questions}
+
+\end{document}
